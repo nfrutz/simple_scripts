@@ -28,7 +28,7 @@ def pick_an_id(module_name=""):
         print("Name Unknown")
         return -1
 
-
+# testing
 if __name__ == "__main__":
     for name in 2*["printer", "head", "platform"]:
         print("Module %s has ID: %d" % (name, pick_an_id(name)))
